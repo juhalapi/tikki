@@ -13,7 +13,7 @@ def p_cards(player):
     player = get_unique_numbers(cards) # arvotaan 5 korttia pelaajalle
     print("Player cards:", player)
     
-    # poistetaan arvotut kortit pelipatakasta
+    # poistetaan arvotut kortit pelipakasta
     for i in cards:
         if i in player:
             # print("found", i)
